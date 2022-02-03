@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  padding: 16px 0;
+}
+
+h2 {
+  padding: 12px 0;
+}
+
+img {
+  height: 256px;
+  width: 256px;
+  object-fit: cover;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.ul-recipe,
+.ol-recipe {
+  margin-bottom: 8px;
+  padding: 0 0 0 24px;
+}
+
+.container {
+  padding: 16px;
+}
+
+.navbar {
+  padding: 16px 0;
+}
+
+.ul-base {
+  list-style-type: none;
+}
+
+.ul-home {
+  padding: 8px 0;
+}
