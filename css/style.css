@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 *,
 *::before,
 *::after {
@@ -7,7 +9,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -41,6 +43,10 @@ p {
 .container {
   background-color: rgb(240, 240, 240);
   height: 100vh;
+}
+
+.container.recipe-page {
+  padding: 16px;
 }
 
 .flex-container {
