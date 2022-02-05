@@ -24,6 +24,10 @@ img {
   object-fit: cover;
 }
 
+li {
+  text-align: justify;
+}
+
 p {
   margin-bottom: 8px;
 }
@@ -35,7 +39,27 @@ p {
 }
 
 .container {
+  background-color: rgb(240, 240, 240);
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-flex-item {
+  background-color: rgb(243, 243, 243);
+  height: 100vh;
+  width: 640px;
   padding: 16px;
+}
+
+.right-flex-item {
+  background-color: rgb(255, 255, 255);
+  max-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .navbar {
@@ -48,4 +72,8 @@ p {
 
 .ul-home {
   padding: 8px 0;
+}
+
+.masonry-img {
+  margin: 4px;
 }

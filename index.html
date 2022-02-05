@@ -9,24 +9,36 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <nav class="navbar">
-          <ul class="ul-base">
-            <li><a href="./../index.html">Home</a></li>
+      <div class="flex-container">
+        <!--Contains navigational part of the page-->
+        <div class="left-flex-item">
+          <header>
+            <nav class="navbar">
+              <ul class="ul-base">
+                <li><a href="./../index.html">Home</a></li>
+              </ul>
+            </nav>
+          </header>
+
+          <h1>Odin Recipes</h1>
+
+          <p>Below are the list of available recipes for you to find:</p>
+          <ul class="ul-base ul-home">
+            <li><a href="./recipes/pesto-pizza.html">Pesto Pizza</a></li>
+            <li>
+              <a href="./recipes/fried-egg-sandwich.html">Fried Egg Sandwich</a>
+            </li>
+            <li><a href="./recipes/fried-chicken.html">Fried Chicken</a></li>
           </ul>
-        </nav>
-      </header>
+        </div>
 
-      <h1>Odin Recipes</h1>
-
-      <p>Below are the list of available recipes for you to find:</p>
-      <ul class="ul-base ul-home">
-        <li><a href="./recipes/pesto-pizza.html">Pesto Pizza</a></li>
-        <li>
-          <a href="./recipes/fried-egg-sandwich.html">Fried Egg Sandwich</a>
-        </li>
-        <li><a href="./recipes/fried-chicken.html">Fried Chicken</a></li>
-      </ul>
+        <!--Contains masonry flex for recipes' image-->
+        <div class="right-flex-item">
+          <div class="column" id="masonry-list-container"></div>
+        </div>
+      </div>
     </div>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
